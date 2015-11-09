@@ -1,0 +1,139 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Person"
+provides-nominal:
+- "C8Contatos6Person"
+provides-member:
+- ["C8Contatos6Person", ""]
+provides-dynamic-lookup:
+- "fathersPhone"
+- "familyName"
+- "workEmail"
+- "homeEmail"
+- "workPhone"
+- "birthdayDate"
+- "mobilePhone"
+- "givenName"
+- "profilePicture"
+depends-top-level:
+- "NSObject"
+- "String"
+- "NSDateComponents"
+- "UIImage"
+- "Person"
+depends-member:
+- ["PSs9AnyObject", "birthdayDate"]
+- ["PSs9AnyObject", "familyName"]
+- ["PSs9AnyObject", "fathersPhone"]
+- ["PSs9AnyObject", "givenName"]
+- ["PSs9AnyObject", "homeEmail"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "mobilePhone"]
+- ["PSs9AnyObject", "profilePicture"]
+- ["PSs9AnyObject", "workEmail"]
+- ["PSs9AnyObject", "workPhone"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "birthdayDate"]
+- ["PSs11CVarArgType", "familyName"]
+- ["PSs11CVarArgType", "fathersPhone"]
+- ["PSs11CVarArgType", "givenName"]
+- ["PSs11CVarArgType", "homeEmail"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "mobilePhone"]
+- ["PSs11CVarArgType", "profilePicture"]
+- ["PSs11CVarArgType", "workEmail"]
+- ["PSs11CVarArgType", "workPhone"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "birthdayDate"]
+- ["PSs23CustomStringConvertible", "familyName"]
+- ["PSs23CustomStringConvertible", "fathersPhone"]
+- ["PSs23CustomStringConvertible", "givenName"]
+- ["PSs23CustomStringConvertible", "homeEmail"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "mobilePhone"]
+- ["PSs23CustomStringConvertible", "profilePicture"]
+- ["PSs23CustomStringConvertible", "workEmail"]
+- ["PSs23CustomStringConvertible", "workPhone"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "birthdayDate"]
+- ["PSs9Equatable", "familyName"]
+- ["PSs9Equatable", "fathersPhone"]
+- ["PSs9Equatable", "givenName"]
+- ["PSs9Equatable", "homeEmail"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "mobilePhone"]
+- ["PSs9Equatable", "profilePicture"]
+- ["PSs9Equatable", "workEmail"]
+- ["PSs9Equatable", "workPhone"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "birthdayDate"]
+- ["PSs8Hashable", "familyName"]
+- ["PSs8Hashable", "fathersPhone"]
+- ["PSs8Hashable", "givenName"]
+- ["PSs8Hashable", "homeEmail"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "mobilePhone"]
+- ["PSs8Hashable", "profilePicture"]
+- ["PSs8Hashable", "workEmail"]
+- ["PSs8Hashable", "workPhone"]
+- ["PSs8Hashable", ""]
+- ["CSo8NSObject", "NSDateComponents"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "birthdayDate"]
+- ["CSo8NSObject", "familyName"]
+- ["CSo8NSObject", "fathersPhone"]
+- ["CSo8NSObject", "givenName"]
+- ["CSo8NSObject", "homeEmail"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "mobilePhone"]
+- ["CSo8NSObject", "profilePicture"]
+- ["CSo8NSObject", "workEmail"]
+- ["CSo8NSObject", "workPhone"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "birthdayDate"]
+- ["PSo16NSObjectProtocol", "familyName"]
+- ["PSo16NSObjectProtocol", "fathersPhone"]
+- ["PSo16NSObjectProtocol", "givenName"]
+- ["PSo16NSObjectProtocol", "homeEmail"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "mobilePhone"]
+- ["PSo16NSObjectProtocol", "profilePicture"]
+- ["PSo16NSObjectProtocol", "workEmail"]
+- ["PSo16NSObjectProtocol", "workPhone"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C8Contatos6Person", "NSDateComponents"]
+- ["C8Contatos6Person", "String"]
+- ["C8Contatos6Person", "UIImage"]
+- ["C8Contatos6Person", "birthdayDate"]
+- ["C8Contatos6Person", "deinit"]
+- ["C8Contatos6Person", "familyName"]
+- ["C8Contatos6Person", "fathersPhone"]
+- ["C8Contatos6Person", "givenName"]
+- ["C8Contatos6Person", "homeEmail"]
+- ["C8Contatos6Person", "init"]
+- ["C8Contatos6Person", "mobilePhone"]
+- ["C8Contatos6Person", "profilePicture"]
+- ["C8Contatos6Person", "workEmail"]
+- ["C8Contatos6Person", "workPhone"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C8Contatos6Person"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Contacts.swiftmodule"
+interface-hash: "e5455ab1ce334a077373e8d09cde494d"

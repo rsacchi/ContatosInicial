@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "96180088D8B4D19DA42A64E4ACFCF0CC1A45681E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2C227BA66229BF7C390FB9A74FA28B226198D0A7" : 0,
+    "96180088D8B4D19DA42A64E4ACFCF0CC1A45681E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8C0C90C8-724D-40FE-9219-72252E3FB91F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2C227BA66229BF7C390FB9A74FA28B226198D0A7" : "..\/PersonApp\/iOS\/personalapp-ios",
+    "96180088D8B4D19DA42A64E4ACFCF0CC1A45681E" : "Contatos\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Contatos",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Contatos\/Contatos.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:rm_sacchi\/personalapp-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2C227BA66229BF7C390FB9A74FA28B226198D0A7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:rm_sacchi\/contatos.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "96180088D8B4D19DA42A64E4ACFCF0CC1A45681E"
+    }
+  ]
+}

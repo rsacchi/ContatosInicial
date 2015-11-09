@@ -1,0 +1,493 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AddGroupViewController"
+provides-nominal:
+- "C8Contatos22AddGroupViewController"
+provides-member:
+- ["C8Contatos22AddGroupViewController", ""]
+provides-dynamic-lookup:
+- "okClicked"
+- "viewDidLoad"
+- "groupNameTextField"
+- "showMessageInAlert"
+depends-top-level:
+- !private "=="
+- "AnyObject"
+- !private "UIAlertAction"
+- "UITextField"
+- "String"
+- !private "StringLiteralType"
+- "UIViewController"
+- !private "CNMutableGroup"
+- "Bool"
+- !private "CNSaveRequest"
+- !private "BooleanLiteralType"
+- "AddGroupViewController"
+- !private "UIAlertController"
+- !private "Void"
+- !private "CNContactStore"
+depends-member:
+- ["C8Contatos22AddGroupViewController", "AnyObject"]
+- ["C8Contatos22AddGroupViewController", "Bool"]
+- !private ["C8Contatos22AddGroupViewController", "CNContactStore"]
+- !private ["C8Contatos22AddGroupViewController", "CNMutableGroup"]
+- !private ["C8Contatos22AddGroupViewController", "CNSaveRequest"]
+- ["C8Contatos22AddGroupViewController", "String"]
+- !private ["C8Contatos22AddGroupViewController", "UIAlertAction"]
+- !private ["C8Contatos22AddGroupViewController", "UIAlertController"]
+- ["C8Contatos22AddGroupViewController", "UITextField"]
+- !private ["C8Contatos22AddGroupViewController", "Void"]
+- ["C8Contatos22AddGroupViewController", "deinit"]
+- !private ["C8Contatos22AddGroupViewController", "dismissViewControllerAnimated"]
+- ["C8Contatos22AddGroupViewController", "groupNameTextField"]
+- ["C8Contatos22AddGroupViewController", "init"]
+- ["C8Contatos22AddGroupViewController", "okClicked"]
+- !private ["C8Contatos22AddGroupViewController", "presentViewController"]
+- ["C8Contatos22AddGroupViewController", "showMessageInAlert"]
+- ["C8Contatos22AddGroupViewController", "viewDidLoad"]
+- !private ["PSs9AnyObject", "CNContactStore"]
+- !private ["PSs9AnyObject", "CNMutableGroup"]
+- !private ["PSs9AnyObject", "CNSaveRequest"]
+- !private ["PSs9AnyObject", "UIAlertAction"]
+- !private ["PSs9AnyObject", "UIAlertController"]
+- !private ["PSs9AnyObject", "addAction"]
+- !private ["PSs9AnyObject", "addGroup"]
+- !private ["PSs9AnyObject", "becomeFirstResponder"]
+- !private ["PSs9AnyObject", "dismissViewControllerAnimated"]
+- !private ["PSs9AnyObject", "executeSaveRequest"]
+- ["PSs9AnyObject", "groupNameTextField"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "isEmpty"]
+- !private ["PSs9AnyObject", "name"]
+- ["PSs9AnyObject", "okClicked"]
+- !private ["PSs9AnyObject", "presentViewController"]
+- ["PSs9AnyObject", "showMessageInAlert"]
+- !private ["PSs9AnyObject", "text"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["CSo14CNContactStore", "executeSaveRequest"]
+- !private ["CSo14CNContactStore", "init"]
+- !private ["CSo7CNGroup", "init"]
+- !private ["CSo7CNGroup", "name"]
+- !private ["PSo15CNKeyDescriptor", "isEmpty"]
+- !private ["CSo14CNMutableGroup", "init"]
+- !private ["CSo14CNMutableGroup", "name"]
+- !private ["CSo13CNSaveRequest", "addGroup"]
+- !private ["CSo13CNSaveRequest", "init"]
+- !private ["PSs11CVarArgType", "CNContactStore"]
+- !private ["PSs11CVarArgType", "CNMutableGroup"]
+- !private ["PSs11CVarArgType", "CNSaveRequest"]
+- !private ["PSs11CVarArgType", "UIAlertAction"]
+- !private ["PSs11CVarArgType", "UIAlertController"]
+- !private ["PSs11CVarArgType", "addAction"]
+- !private ["PSs11CVarArgType", "addGroup"]
+- !private ["PSs11CVarArgType", "becomeFirstResponder"]
+- !private ["PSs11CVarArgType", "dismissViewControllerAnimated"]
+- !private ["PSs11CVarArgType", "executeSaveRequest"]
+- ["PSs11CVarArgType", "groupNameTextField"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "isEmpty"]
+- !private ["PSs11CVarArgType", "name"]
+- ["PSs11CVarArgType", "okClicked"]
+- !private ["PSs11CVarArgType", "presentViewController"]
+- ["PSs11CVarArgType", "showMessageInAlert"]
+- !private ["PSs11CVarArgType", "text"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs10Comparable", "isEmpty"]
+- !private ["PSs28CustomDebugStringConvertible", "isEmpty"]
+- !private ["PSs23CustomStringConvertible", "CNContactStore"]
+- !private ["PSs23CustomStringConvertible", "CNMutableGroup"]
+- !private ["PSs23CustomStringConvertible", "CNSaveRequest"]
+- !private ["PSs23CustomStringConvertible", "UIAlertAction"]
+- !private ["PSs23CustomStringConvertible", "UIAlertController"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addAction"]
+- !private ["PSs23CustomStringConvertible", "addGroup"]
+- !private ["PSs23CustomStringConvertible", "becomeFirstResponder"]
+- !private ["PSs23CustomStringConvertible", "dismissViewControllerAnimated"]
+- !private ["PSs23CustomStringConvertible", "executeSaveRequest"]
+- ["PSs23CustomStringConvertible", "groupNameTextField"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "isEmpty"]
+- !private ["PSs23CustomStringConvertible", "name"]
+- ["PSs23CustomStringConvertible", "okClicked"]
+- !private ["PSs23CustomStringConvertible", "presentViewController"]
+- ["PSs23CustomStringConvertible", "showMessageInAlert"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "Alert"]
+- !private ["PSs9Equatable", "CNContactStore"]
+- !private ["PSs9Equatable", "CNMutableGroup"]
+- !private ["PSs9Equatable", "CNSaveRequest"]
+- !private ["PSs9Equatable", "Cancel"]
+- !private ["PSs9Equatable", "UIAlertAction"]
+- !private ["PSs9Equatable", "UIAlertController"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addAction"]
+- !private ["PSs9Equatable", "addGroup"]
+- !private ["PSs9Equatable", "becomeFirstResponder"]
+- !private ["PSs9Equatable", "dismissViewControllerAnimated"]
+- !private ["PSs9Equatable", "executeSaveRequest"]
+- ["PSs9Equatable", "groupNameTextField"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "isEmpty"]
+- !private ["PSs9Equatable", "name"]
+- ["PSs9Equatable", "okClicked"]
+- !private ["PSs9Equatable", "presentViewController"]
+- ["PSs9Equatable", "showMessageInAlert"]
+- !private ["PSs9Equatable", "text"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "isEmpty"]
+- !private ["PSs8Hashable", "Alert"]
+- !private ["PSs8Hashable", "CNContactStore"]
+- !private ["PSs8Hashable", "CNMutableGroup"]
+- !private ["PSs8Hashable", "CNSaveRequest"]
+- !private ["PSs8Hashable", "Cancel"]
+- !private ["PSs8Hashable", "UIAlertAction"]
+- !private ["PSs8Hashable", "UIAlertController"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addAction"]
+- !private ["PSs8Hashable", "addGroup"]
+- !private ["PSs8Hashable", "becomeFirstResponder"]
+- !private ["PSs8Hashable", "dismissViewControllerAnimated"]
+- !private ["PSs8Hashable", "executeSaveRequest"]
+- ["PSs8Hashable", "groupNameTextField"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "isEmpty"]
+- !private ["PSs8Hashable", "name"]
+- ["PSs8Hashable", "okClicked"]
+- !private ["PSs8Hashable", "presentViewController"]
+- ["PSs8Hashable", "showMessageInAlert"]
+- !private ["PSs8Hashable", "text"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["PSs14MirrorPathType", "isEmpty"]
+- !private ["PSo8NSCoding", "CNContactStore"]
+- !private ["PSo8NSCoding", "CNMutableGroup"]
+- !private ["PSo8NSCoding", "CNSaveRequest"]
+- !private ["PSo8NSCoding", "UIAlertAction"]
+- !private ["PSo8NSCoding", "UIAlertController"]
+- !private ["PSo8NSCoding", "addAction"]
+- !private ["PSo8NSCoding", "becomeFirstResponder"]
+- !private ["PSo8NSCoding", "dismissViewControllerAnimated"]
+- ["PSo8NSCoding", "groupNameTextField"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isEmpty"]
+- !private ["PSo8NSCoding", "name"]
+- ["PSo8NSCoding", "okClicked"]
+- !private ["PSo8NSCoding", "presentViewController"]
+- ["PSo8NSCoding", "showMessageInAlert"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isEmpty"]
+- !private ["PSo9NSCopying", "name"]
+- !private ["PSo26NSExtensionRequestHandling", "CNContactStore"]
+- !private ["PSo26NSExtensionRequestHandling", "CNMutableGroup"]
+- !private ["PSo26NSExtensionRequestHandling", "CNSaveRequest"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertAction"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertController"]
+- !private ["PSo26NSExtensionRequestHandling", "addAction"]
+- !private ["PSo26NSExtensionRequestHandling", "dismissViewControllerAnimated"]
+- ["PSo26NSExtensionRequestHandling", "groupNameTextField"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "okClicked"]
+- !private ["PSo26NSExtensionRequestHandling", "presentViewController"]
+- ["PSo26NSExtensionRequestHandling", "showMessageInAlert"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "isEmpty"]
+- !private ["PSo16NSMutableCopying", "name"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CNContactStore"]
+- !private ["CSo8NSObject", "CNMutableGroup"]
+- !private ["CSo8NSObject", "CNSaveRequest"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIAlertAction"]
+- !private ["CSo8NSObject", "UIAlertController"]
+- ["CSo8NSObject", "UITextField"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addAction"]
+- !private ["CSo8NSObject", "addGroup"]
+- !private ["CSo8NSObject", "becomeFirstResponder"]
+- !private ["CSo8NSObject", "dismissViewControllerAnimated"]
+- !private ["CSo8NSObject", "executeSaveRequest"]
+- ["CSo8NSObject", "groupNameTextField"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isEmpty"]
+- !private ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "okClicked"]
+- !private ["CSo8NSObject", "presentViewController"]
+- ["CSo8NSObject", "showMessageInAlert"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "CNContactStore"]
+- !private ["PSo16NSObjectProtocol", "CNMutableGroup"]
+- !private ["PSo16NSObjectProtocol", "CNSaveRequest"]
+- !private ["PSo16NSObjectProtocol", "UIAlertAction"]
+- !private ["PSo16NSObjectProtocol", "UIAlertController"]
+- !private ["PSo16NSObjectProtocol", "addAction"]
+- !private ["PSo16NSObjectProtocol", "addGroup"]
+- !private ["PSo16NSObjectProtocol", "becomeFirstResponder"]
+- !private ["PSo16NSObjectProtocol", "dismissViewControllerAnimated"]
+- !private ["PSo16NSObjectProtocol", "executeSaveRequest"]
+- ["PSo16NSObjectProtocol", "groupNameTextField"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isEmpty"]
+- !private ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "okClicked"]
+- !private ["PSo16NSObjectProtocol", "presentViewController"]
+- ["PSo16NSObjectProtocol", "showMessageInAlert"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "isEmpty"]
+- !private ["PSo14NSSecureCoding", "name"]
+- !private ["CSo8NSString", "isEmpty"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "isEmpty"]
+- !private ["PSs16RawRepresentable", "Alert"]
+- !private ["PSs16RawRepresentable", "Cancel"]
+- !private ["PSs10Streamable", "isEmpty"]
+- !private ["SS", "isEmpty"]
+- !private ["PSs30StringInterpolationConvertible", "isEmpty"]
+- !private ["PSs24StringLiteralConvertible", "isEmpty"]
+- !private ["PSo29UIAccessibilityIdentification", "becomeFirstResponder"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["CSo13UIAlertAction", "init"]
+- !private ["OSC18UIAlertActionStyle", "Cancel"]
+- !private ["CSo17UIAlertController", "addAction"]
+- !private ["CSo17UIAlertController", "init"]
+- !private ["OSC22UIAlertControllerStyle", "Alert"]
+- !private ["PSo12UIAppearance", "becomeFirstResponder"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "CNContactStore"]
+- !private ["PSo21UIAppearanceContainer", "CNMutableGroup"]
+- !private ["PSo21UIAppearanceContainer", "CNSaveRequest"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertAction"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertController"]
+- !private ["PSo21UIAppearanceContainer", "addAction"]
+- !private ["PSo21UIAppearanceContainer", "becomeFirstResponder"]
+- !private ["PSo21UIAppearanceContainer", "dismissViewControllerAnimated"]
+- ["PSo21UIAppearanceContainer", "groupNameTextField"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "okClicked"]
+- !private ["PSo21UIAppearanceContainer", "presentViewController"]
+- ["PSo21UIAppearanceContainer", "showMessageInAlert"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "CNContactStore"]
+- !private ["PSo18UIContentContainer", "CNMutableGroup"]
+- !private ["PSo18UIContentContainer", "CNSaveRequest"]
+- !private ["PSo18UIContentContainer", "UIAlertAction"]
+- !private ["PSo18UIContentContainer", "UIAlertController"]
+- !private ["PSo18UIContentContainer", "addAction"]
+- !private ["PSo18UIContentContainer", "dismissViewControllerAnimated"]
+- ["PSo18UIContentContainer", "groupNameTextField"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "okClicked"]
+- !private ["PSo18UIContentContainer", "presentViewController"]
+- ["PSo18UIContentContainer", "showMessageInAlert"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "becomeFirstResponder"]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "becomeFirstResponder"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "becomeFirstResponder"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "CNContactStore"]
+- !private ["PSo18UIFocusEnvironment", "CNMutableGroup"]
+- !private ["PSo18UIFocusEnvironment", "CNSaveRequest"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertAction"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertController"]
+- !private ["PSo18UIFocusEnvironment", "addAction"]
+- !private ["PSo18UIFocusEnvironment", "becomeFirstResponder"]
+- !private ["PSo18UIFocusEnvironment", "dismissViewControllerAnimated"]
+- ["PSo18UIFocusEnvironment", "groupNameTextField"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "okClicked"]
+- !private ["PSo18UIFocusEnvironment", "presentViewController"]
+- ["PSo18UIFocusEnvironment", "showMessageInAlert"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo10UIKeyInput", "becomeFirstResponder"]
+- !private ["PSo10UIKeyInput", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "CNContactStore"]
+- !private ["CSo11UIResponder", "CNMutableGroup"]
+- !private ["CSo11UIResponder", "CNSaveRequest"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIAlertAction"]
+- !private ["CSo11UIResponder", "UIAlertController"]
+- ["CSo11UIResponder", "UITextField"]
+- !private ["CSo11UIResponder", "Void"]
+- !private ["CSo11UIResponder", "addAction"]
+- !private ["CSo11UIResponder", "becomeFirstResponder"]
+- !private ["CSo11UIResponder", "dismissViewControllerAnimated"]
+- ["CSo11UIResponder", "groupNameTextField"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "okClicked"]
+- !private ["CSo11UIResponder", "presentViewController"]
+- ["CSo11UIResponder", "showMessageInAlert"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "CNContactStore"]
+- !private ["PSo16UIStateRestoring", "CNMutableGroup"]
+- !private ["PSo16UIStateRestoring", "CNSaveRequest"]
+- !private ["PSo16UIStateRestoring", "UIAlertAction"]
+- !private ["PSo16UIStateRestoring", "UIAlertController"]
+- !private ["PSo16UIStateRestoring", "addAction"]
+- !private ["PSo16UIStateRestoring", "dismissViewControllerAnimated"]
+- ["PSo16UIStateRestoring", "groupNameTextField"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "okClicked"]
+- !private ["PSo16UIStateRestoring", "presentViewController"]
+- ["PSo16UIStateRestoring", "showMessageInAlert"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITextField", "becomeFirstResponder"]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "becomeFirstResponder"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "becomeFirstResponder"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["PSo18UITraitEnvironment", "CNContactStore"]
+- !private ["PSo18UITraitEnvironment", "CNMutableGroup"]
+- !private ["PSo18UITraitEnvironment", "CNSaveRequest"]
+- !private ["PSo18UITraitEnvironment", "UIAlertAction"]
+- !private ["PSo18UITraitEnvironment", "UIAlertController"]
+- !private ["PSo18UITraitEnvironment", "addAction"]
+- !private ["PSo18UITraitEnvironment", "becomeFirstResponder"]
+- !private ["PSo18UITraitEnvironment", "dismissViewControllerAnimated"]
+- ["PSo18UITraitEnvironment", "groupNameTextField"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "okClicked"]
+- !private ["PSo18UITraitEnvironment", "presentViewController"]
+- ["PSo18UITraitEnvironment", "showMessageInAlert"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "becomeFirstResponder"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "CNContactStore"]
+- !private ["CSo16UIViewController", "CNMutableGroup"]
+- !private ["CSo16UIViewController", "CNSaveRequest"]
+- ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "UIAlertAction"]
+- !private ["CSo16UIViewController", "UIAlertController"]
+- ["CSo16UIViewController", "UITextField"]
+- !private ["CSo16UIViewController", "Void"]
+- !private ["CSo16UIViewController", "addAction"]
+- !private ["CSo16UIViewController", "dismissViewControllerAnimated"]
+- ["CSo16UIViewController", "groupNameTextField"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "okClicked"]
+- !private ["CSo16UIViewController", "presentViewController"]
+- ["CSo16UIViewController", "showMessageInAlert"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "isEmpty"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "isEmpty"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "isEmpty"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "isEmpty"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "isEmpty"]
+- !private ["PSs16_CocoaStringType", "isEmpty"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "becomeFirstResponder"]
+- !private ["PSs12_Reflectable", "isEmpty"]
+- !private ["PSs12_Reflectable", "text"]
+depends-nominal:
+- "C8Contatos22AddGroupViewController"
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "CSo14CNContactStore"
+- !private "CSo7CNGroup"
+- !private "PSo15CNKeyDescriptor"
+- !private "CSo14CNMutableGroup"
+- !private "CSo13CNSaveRequest"
+- "PSs11CVarArgType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- "PSs8Hashable"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs16RawRepresentable"
+- !private "PSs10Streamable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo13UIAlertAction"
+- !private "OSC18UIAlertActionStyle"
+- !private "CSo17UIAlertController"
+- !private "OSC22UIAlertControllerStyle"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Contacts.swiftmodule"
+interface-hash: "d1b1619e037ec2d307943ec328ca3ef0"

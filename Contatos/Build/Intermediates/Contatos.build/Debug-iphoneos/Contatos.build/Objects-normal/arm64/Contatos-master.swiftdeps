@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "fe57e8c4b0bb2adda05cf41017a89b53"
+build_time: [500324731, 665305000]
+inputs:
+  "/Users/rafaelsacchi/Documents/Projects/Mobile Magazine/Contatos/Contatos/Contatos/AppDelegate.swift": [497892642, 0]
+  "/Users/rafaelsacchi/Documents/Projects/Mobile Magazine/Contatos/Contatos/Contatos/ContactDetailsViewController.swift": [500083405, 0]
+  "/Users/rafaelsacchi/Documents/Projects/Mobile Magazine/Contatos/Contatos/Contatos/ContactsListViewController.swift": [500080348, 0]
+  "/Users/rafaelsacchi/Documents/Projects/Mobile Magazine/Contatos/Contatos/Contatos/Person.swift": [499720241, 0]
