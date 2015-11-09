@@ -92,33 +92,6 @@ class ContactDetailsViewController: UIViewController {
     }
     
     func addContact(person: Person) {
-       
-        let contact = CNMutableContact()
-        
-        contact.givenName = person.givenName!
-        contact.familyName = person.familyName!
-        contact.imageData = UIImageJPEGRepresentation(person.profilePicture!, 1.0)
-        
-        let homeEmail = CNLabeledValue(label:CNLabelHome, value:person.homeEmail!)
-        let workEmail = CNLabeledValue(label:CNLabelWork, value:person.workEmail!)
-        contact.emailAddresses = [homeEmail, workEmail]
-        
-        let mobilePhone = CNLabeledValue(label:CNLabelPhoneNumberMobile, value:CNPhoneNumber(stringValue: person.mobilePhone!))
-        let workPhone = CNLabeledValue(label:CNLabelPhoneNumberWorkFax, value:CNPhoneNumber(stringValue: person.workPhone!))
-        let fathersPhone = CNLabeledValue(label:"Telefone de reserva", value:CNPhoneNumber(stringValue: person.fathersPhone!))
-        contact.phoneNumbers = [mobilePhone, workPhone, fathersPhone]
-        
-        contact.birthday = person.birthdayDate
-        
-        let store = CNContactStore()
-        let saveRequest = CNSaveRequest()
-        saveRequest.addContact(contact, toContainerWithIdentifier:nil)
-        
-        do {
-            try store.executeSaveRequest(saveRequest)
-        } catch {
-            
-        }
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

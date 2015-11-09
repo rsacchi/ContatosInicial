@@ -1,9 +1,9 @@
 version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
-options: "5b49508dd30b9ac9ab9ee0eeac31be5b"
-build_time: [500330688, 539891000]
+options: "23c0bec7ed714dca11b2fdef6a96b50d"
+build_time: [500349890, 102536000]
 inputs:
-  "/Users/rafaelsacchi/Documents/Projects/Mobile Magazine/Contatos/Contatos/Contatos/AddGroupViewController.swift": [500330621, 0]
-  "/Users/rafaelsacchi/Documents/Projects/Mobile Magazine/Contatos/Contatos/Contatos/Person.swift": [499720241, 0]
-  "/Users/rafaelsacchi/Documents/Projects/Mobile Magazine/Contatos/Contatos/Contatos/ContactDetailsViewController.swift": [500328815, 0]
-  "/Users/rafaelsacchi/Documents/Projects/Mobile Magazine/Contatos/Contatos/Contatos/ContactsListViewController.swift": [500080348, 0]
-  "/Users/rafaelsacchi/Documents/Projects/Mobile Magazine/Contatos/Contatos/Contatos/AppDelegate.swift": [497892642, 0]
+  "/Users/rafaelsacchi/Documents/Projects/Mobile Magazine/ProjetoInicial/Contatos/AppDelegate.swift": [497892642, 0]
+  "/Users/rafaelsacchi/Documents/Projects/Mobile Magazine/ProjetoInicial/Contatos/AddGroupViewController.swift": [500349790, 0]
+  "/Users/rafaelsacchi/Documents/Projects/Mobile Magazine/ProjetoInicial/Contatos/Person.swift": [499720241, 0]
+  "/Users/rafaelsacchi/Documents/Projects/Mobile Magazine/ProjetoInicial/Contatos/ContactsListViewController.swift": [500349766, 0]
+  "/Users/rafaelsacchi/Documents/Projects/Mobile Magazine/ProjetoInicial/Contatos/ContactDetailsViewController.swift": [500349019, 0]

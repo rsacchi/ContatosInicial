@@ -22,34 +22,6 @@ class ContactsListViewController: UIViewController {
     }
     
     func fetchUserContactsAndReloadTableView() {
-        let descriptor = CNContactViewController.descriptorForRequiredKeys()
-        let keysToFetch = [descriptor]
-
-        let fetchRequest = CNContactFetchRequest( keysToFetch: keysToFetch)
-        CNContact.localizedStringForKey(CNLabelPhoneNumberiPhone)
-        
-        fetchRequest.mutableObjects = false
-        fetchRequest.unifyResults = true
-        fetchRequest.sortOrder = .GivenName
-        
-        do {
-
-            try CNContactStore().enumerateContactsWithFetchRequest(fetchRequest) { (contact, stop) -> Void in
-                self.contactsList.append(contact)
-            }
-        } catch {
-            let noPermissionAlert = UIAlertController(title: "Não foi possível adicionar o contato",
-                message: "Para adicioná-lo, dê permissão para acessar os Contatos",
-                preferredStyle: .Alert)
-            
-            noPermissionAlert.addAction(UIAlertAction(title: "OK", style: .Cancel, handler: nil))
-            
-            presentViewController(noPermissionAlert, animated: true, completion: nil)
-        }
-        
-        dispatch_async(dispatch_get_main_queue(), { () -> Void in
-            self.tableView.reloadData()
-        })
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -70,18 +42,9 @@ class ContactsListViewController: UIViewController {
     }
     
     func displayContact(contact: CNContact, cell: UITableViewCell) {
-        cell.textLabel!.text = CNContactFormatter.stringFromContact(contact, style: .FullName)
-        if (contact.imageData != nil) {
-            cell.imageView!.image = UIImage(data: contact.imageData!)
-        } else {
-            cell.imageView!.image = nil
-        }
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let contact = contactsList[indexPath.row]
-        let contactViewController = CNContactViewController(forContact: contact)
-        showViewController(contactViewController, sender: self)
     }
 
     func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
@@ -95,23 +58,6 @@ class ContactsListViewController: UIViewController {
     }
     
     func performDeleteForContactAtIndexPath(indexPath: NSIndexPath) {
-        let contact = contactsList.removeAtIndex(indexPath.row)
-        
-        let store = CNContactStore()
-        let saveRequest = CNSaveRequest()
-        saveRequest.deleteContact(contact.mutableCopy() as! CNMutableContact)
-        
-        do {
-            try store.executeSaveRequest(saveRequest)
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
-        } catch let error {
-            print(error)
-            let noPermissionAlert = UIAlertController(title: "Erro",
-                message: "Não foi possível deletar o contato selecionado",
-                preferredStyle: .Alert)
-            noPermissionAlert.addAction(UIAlertAction(title: "OK", style: .Cancel, handler: nil))
-            presentViewController(noPermissionAlert, animated: true, completion: nil)
-        }
     }
 
 }

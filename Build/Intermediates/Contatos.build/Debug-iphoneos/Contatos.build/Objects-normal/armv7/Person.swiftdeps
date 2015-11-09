@@ -7,20 +7,20 @@ provides-member:
 - ["C8Contatos6Person", ""]
 provides-dynamic-lookup:
 - "fathersPhone"
-- "familyName"
 - "workEmail"
-- "homeEmail"
-- "workPhone"
+- "profilePicture"
 - "birthdayDate"
 - "mobilePhone"
 - "givenName"
-- "profilePicture"
+- "homeEmail"
+- "workPhone"
+- "familyName"
 depends-top-level:
+- "Person"
+- "UIImage"
+- "NSDateComponents"
 - "NSObject"
 - "String"
-- "NSDateComponents"
-- "UIImage"
-- "Person"
 depends-member:
 - ["PSs9AnyObject", "birthdayDate"]
 - ["PSs9AnyObject", "familyName"]

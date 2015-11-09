@@ -102,6 +102,7 @@ SWIFT_CLASS("_TtC8Contatos22AddGroupViewController")
 - (void)viewDidLoad;
 - (IBAction)okClicked:(id __nonnull)sender;
 - (void)showMessageInAlert:(NSString * __nonnull)message forTitle:(NSString * __nonnull)title shouldDismiss:(BOOL)dismiss;
+- (IBAction)cancelClicked:(id __nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -139,6 +140,7 @@ SWIFT_CLASS("_TtC8Contatos28ContactDetailsViewController")
 - (void)displayPerson:(Person * __nonnull)person cell:(UITableViewCell * __nonnull)cell;
 - (void)tableView:(UITableView * __nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (void)showSucessfulMessageAfterAddingContact;
+- (IBAction)cancelClicked:(id __nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
